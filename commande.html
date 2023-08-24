@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Index</title>
+		<link rel="stylesheet" href="./main.css" />
+	</head>
+	<body>
+		<header>
+			<!-- header top -->
+			<div class="align-horizontaly space-between bg-blue white container tiny-vertical-padding">
+				<a href="./index.html" style="color: white" class="align-horizontaly">
+					<div class="logo">
+						<img src="./media/makroshop-logo.png" alt="makroshop-logo" />
+					</div>
+					<div class="show-only-on-desktop btn-transparent-header">
+						Makro.be
+					</div>
+				</a>
+
+				<div class="align-horizontaly wrap hide-on-mobile header-actions">
+					<div class="show-only-on-desktop">
+						<ul class="align-horizontaly large-margin-right">
+							<li class="small-margin-right yellow">Hors TVA</li>
+							<li class="small-margin-right" >
+								<form method="GET" action="">
+									<label class="switch">
+									  <input type="checkbox">
+									  <span class="slider round"></span>
+									</label>
+								</form>
+							</li>
+							<li>TVA incl.</li>
+						</ul>
+
+						<div class="medium-margin-right">NL | <a href="#" class="yellow emphase">FR</a></span></div>
+					</div>
+
+					<div>
+						<a href="#" class="header-button-primary">
+							<p class="tiny-margin-right"> Se connecter / s'inscrire </p>
+							<svg class="show-on-mobile-only" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M14.9999 8C14.9999 9.65685 13.6568 11 11.9999 11C10.3431 11 8.99993 9.65685 8.99993 8C8.99993 6.34315 10.3431 5 11.9999 5C13.6568 5 14.9999 6.34315 14.9999 8ZM16.9999 8C16.9999 10.7614 14.7614 13 11.9999 13C9.23851 13 6.99993 10.7614 6.99993 8C6.99993 5.23858 9.23851 3 11.9999 3C14.7614 3 16.9999 5.23858 16.9999 8ZM12.0002 16C17.3662 16 18.925 18.1312 18.9975 20.7997C19.0005 20.9102 19.0898 21 19.2002 21H20.8002C20.9107 21 21.0005 20.9099 20.998 20.7995C20.9123 17.0262 18.388 14 12.0002 14C5.6125 14 3.08815 17.0262 3.00249 20.7995C2.99999 20.9099 3.08977 21 3.20023 21H4.80023C4.91069 21 4.99992 20.9102 5.00292 20.7997C5.07547 18.1312 6.63428 16 12.0002 16Z" fill="white"></path>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- header main -->
+			<div class="container space-between wrap-reverse header-main">
+				<!-- menu -->
+				<nav class="expand-on-desktop">
+					<div class="show-on-mobile-only">
+						<a href="#">
+							<svg id="makro-menu" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path 
+									fill-rule="evenodd" 
+									clip-rule="evenodd" 
+									d="M4 7C4 6.44772 4.44772 6 5 6H19C19.5523 6 20 6.44772 20 7C20 7.55228 19.5523 8 19 8H5C4.44772 8 4 7.55228 4 7ZM4 12C4 11.4477 4.44772 11 5 11H19C19.5523 11 20 11.4477 20 12C20 12.5523 19.5523 13 19 13H5C4.44772 13 4 12.5523 4 12ZM5 16C4.44772 16 4 16.4477 4 17C4 17.5523 4.44772 18 5 18H19C19.5523 18 20 17.5523 20 17C20 16.4477 19.5523 16 19 16H5Z"
+									fill="#022E72">
+								</path>
+							</svg>
+						</a>
+					</div>
+					<div id="menu_content" class="wrap align-horizontaly space-between hide-by-default-on-mobile shadow">
+						<ul class="align-horizontaly">
+							<li><a href="#" class="large-margin-right">Catégories</a></li>
+							<li><a href="#" class="large-margin-right">Dépliant</a></li>
+							<li><a href="#" class="large-margin-right">Outlet</a></li>
+						</ul>
+						<ul class="align-horizontaly">
+							<li><a href="#" class="large-margin-right">Foire aux questions</a></li>
+							<li><a href="#">Magasins</a></li>
+						</ul>
+					</div>
+				</nav>
+
+				<form method="GET" action="" class="search-box align-horizontaly bg-white">
+					<input type="text" name="search-input" class="expand-input small-padding" />
+
+					<button type="submit">
+						<svg id="makro-search" viewBox="0 0 24 24">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M16.1213 7.63602C18.4644 9.97917 18.4644 13.7782 16.1213 16.1213C13.7781 18.4644 9.97915 18.4644 7.63601 16.1213C5.29286 13.7782 5.29286 9.97917 7.63601 7.63602C9.97915 5.29288 13.7781 5.29288 16.1213 7.63602ZM18.1988 16.7846C20.6413 13.6462 20.4202 9.10653 17.5355 6.22181C14.4113 3.09761 9.34599 3.09761 6.2218 6.22181C3.0976 9.346 3.0976 14.4113 6.2218 17.5355C9.10652 20.4202 13.6462 20.6414 16.7846 18.1989L20.3639 21.7782C20.7545 22.1687 21.3876 22.1687 21.7781 21.7782C22.1687 21.3876 22.1687 20.7545 21.7781 20.3639L18.1988 16.7846Z" fill="#0163FE">
+							</path>
+						</svg>
+					</button>
+				</form>
+
+				<!-- buttons -->
+				<div class="align-horizontaly blue header-main__buttons">
+					<!-- comparaison -->		
+					<a href="#" class="show-only-on-desktop medium-margin-right">
+						<div class="align-verticaly">
+							<svg viewBox="0 0 25 24" class="icon-comparaison">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M13.5 7C13.5 7.55228 13.0523 8 12.5 8C11.9477 8 11.5 7.55228 11.5 7C11.5 6.44772 11.9477 6 12.5 6C13.0523 6 13.5 6.44772 13.5 7ZM15.3341 7.98633C14.9261 9.15866 13.8113 10 12.5 10C11.1887 10 10.0738 9.15863 9.66589 7.98627C9.61188 7.9953 9.5564 8 9.49982 8H7.07812L9.44734 16.7383C9.47104 16.8257 9.48238 16.9136 9.48243 17H9.49991C9.49991 18.6569 7.70905 20 5.49991 20C3.30782 20 1.52757 18.6775 1.50023 17.0383C1.49646 16.9391 1.5075 16.8377 1.535 16.7369L3.91779 8H3.49982C2.94753 8 2.49982 7.55228 2.49982 7C2.49982 6.44772 2.94753 6 3.49982 6H9.49982C9.5564 6 9.61188 6.0047 9.66589 6.01373C10.0738 4.84137 11.1887 4 12.5 4C13.8113 4 14.9261 4.84134 15.3341 6.01367C15.388 6.00468 15.4434 6 15.4998 6H21.4998C22.0521 6 22.4998 6.44772 22.4998 7C22.4998 7.55228 22.0521 8 21.4998 8H21.0781L23.4473 16.7383C23.471 16.8257 23.4824 16.9136 23.4824 17H23.4999C23.4999 18.6569 21.709 20 19.4999 20C17.3078 20 15.5276 18.6775 15.5002 17.0383C15.4965 16.9391 15.5075 16.8377 15.535 16.7369L17.9178 8H15.4998C15.4434 8 15.388 7.99532 15.3341 7.98633ZM3.53629 17H7.44608L5.49693 9.81099L3.53629 17ZM19.4969 9.81099L21.4461 17H17.5363L19.4969 9.81099Z" fill="#022E72">
+								</path>
+							</svg>
+							<p>Comparaison</p>
+						</div>
+					</a>
+
+					<!-- Liste D'envies -->		
+					<a href="#" class="show-only-on-desktop medium-margin-right">	
+						<div class="align-verticaly">
+							<svg viewBox="0 0 25 24" class="icon-liste-envies">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M4.5 5C3.94772 5 3.5 5.44772 3.5 6C3.5 6.55228 3.94772 7 4.5 7C5.05228 7 5.5 6.55228 5.5 6C5.5 5.44772 5.05228 5 4.5 5ZM8.5 5C7.94772 5 7.5 5.44772 7.5 6C7.5 6.55228 7.94772 7 8.5 7H20.5C21.0523 7 21.5 6.55228 21.5 6C21.5 5.44772 21.0523 5 20.5 5H8.5ZM7.5 12C7.5 11.4477 7.94772 11 8.5 11H20.5C21.0523 11 21.5 11.4477 21.5 12C21.5 12.5523 21.0523 13 20.5 13H8.5C7.94772 13 7.5 12.5523 7.5 12ZM4.5 11C3.94772 11 3.5 11.4477 3.5 12C3.5 12.5523 3.94772 13 4.5 13C5.05228 13 5.5 12.5523 5.5 12C5.5 11.4477 5.05228 11 4.5 11ZM7.5 18C7.5 17.4477 7.94772 17 8.5 17H20.5C21.0523 17 21.5 17.4477 21.5 18C21.5 18.5523 21.0523 19 20.5 19H8.5C7.94772 19 7.5 18.5523 7.5 18ZM4.5 17C3.94772 17 3.5 17.4477 3.5 18C3.5 18.5523 3.94772 19 4.5 19C5.05228 19 5.5 18.5523 5.5 18C5.5 17.4477 5.05228 17 4.5 17Z" fill="#022E72">
+								</path>
+							</svg>
+							<p>Liste D'envies</p>
+						</div>
+					</a>
+
+					<!-- Panier -->		
+					<a href="#">
+						<div class="align-verticaly">
+							<svg id="icon-panier" viewBox="0 0 25 24">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 1C1.94772 1 1.5 1.44772 1.5 2C1.5 2.55228 1.94772 3 2.5 3H3.5C4.05228 3 4.5 3.44772 4.5 4V6V13V15V16C4.5 17.6569 5.84315 19 7.5 19H19.5C20.0523 19 20.5 18.5523 20.5 18C20.5 17.4477 20.0523 17 19.5 17H7.5C6.94772 17 6.5 16.5523 6.5 16V14.8494L17.7792 14C18.6401 14 19.4044 13.4491 19.6766 12.6325L22.0099 6.63245C22.4416 5.33739 21.4777 4 20.1126 4H6.5C6.5 2.34315 5.15685 1 3.5 1H2.5ZM6.5 6V12.8494L17.7792 12L20.1126 6H6.5ZM9.5 21.5C9.5 22.3284 8.82843 23 8 23C7.17157 23 6.5 22.3284 6.5 21.5C6.5 20.6716 7.17157 20 8 20C8.82843 20 9.5 20.6716 9.5 21.5ZM18 23C18.8284 23 19.5 22.3284 19.5 21.5C19.5 20.6716 18.8284 20 18 20C17.1716 20 16.5 20.6716 16.5 21.5C16.5 22.3284 17.1716 23 18 23Z" fill="#022E72">
+								</path>
+							</svg>
+							<p class="show-only-on-desktop">Panier<p>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<!-- breadcrumb -->
+			<div class="page-info container medium-vertical-padding">
+				<a href="./index.html">Page d'accueil</a> / Commande
+			</div>
+		</header>
+
+
+		<main class="container centered-wide-bloc medium-vertical-padding">
+			<h1>Votre commande</h1>
+			<div class="commande">
+				<table>
+					<thead>
+						<th>Formule</th>
+						<th>Conditionnement</th>
+						<th>Prix</th>
+						<th>Quantité</th>
+						<th>Sous-total</th>
+						<th>Etat du stock</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>TATOO Mobile</td>
+							<td>Groupe de 6</td>
+							<td>150 €</td>
+							<td>2</td>
+							<td>300 €</td>
+							<td>-4</td>
+						</tr>
+						<tr>
+							<td>TATOO Mobile</td>
+							<td>Groupe de 6</td>
+							<td>150 €</td>
+							<td>2</td>
+							<td>300 €</td>
+							<td>-4</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td colspan=3>Total à facturer</td>
+							<td>600 €</td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</main>
+
+
+		<footer class="container divider-top">
+			<div class="footer-navigation inline-on-desktop">
+				<div class="huge-right-spacing-on-desktop">
+					<p class="title">makro</p>
+					<nav class="small-horizontal-padding no-padding-on-desktop">
+						<ul>
+							<li class="item"><a href="#">Sur makro</a></li>
+							<li class="item"><a href="#">Conditions générales de vente</a></li>
+							<li class="item"><a href="./politique.html">Privacy</a></li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="flex-1">
+					<p class="title">Commandes</p>
+					<nav class="small-horizontal-padding no-padding-on-desktop blue">
+						<ul>
+							<li class="item"><a href="#">Modalités de paiement</a></li>
+							<li class="item"><a href="#">Renvoyer</a></li>
+							<li class="item"><a href="#">Historique des commandes</a></li>
+							<li class="item"><a href="#">Enregistrez-vous</a></li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="footer-contact">
+					<div>
+						<h3 class="title">Vous avez des questions ?</h3>
+						<nav class="small-horizontal-padding no-padding-on-desktop blue">
+							<ul>
+								<li class="item"><a href="#">Service Clients</a></li>
+							</ul>
+						</nav>
+					</div>
+
+					<div class="">
+						<h4 class="title">Suivez-nous</h4>
+						<ul class="align-horizontaly small-horizontal-spacing">
+							<li class="item">
+								<a href="#" class="footer-icon">
+									<img src="./media/facebook-logo.png" alt="facebook" />
+								</a>
+							</li>
+							<li class="item">
+								<a href="#" class="footer-icon">
+									<img src="./media/instagram-logo.png" alt="instagram" />
+								</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="blue small-text centered-text bg-light-blue medium-vertical-margin small-vertical-padding">
+				© MAKRO Cash & Carry Belgium 2022
+			</div>
+		</footer>
+
+
+		<script src="./main.js"></script>
+
+	</body>
+</html>

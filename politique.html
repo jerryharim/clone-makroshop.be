@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Index</title>
+		<link rel="stylesheet" href="./main.css" />
+	</head>
+	<body>
+		<header>
+			<!-- header top -->
+			<div class="align-horizontaly space-between bg-blue white container tiny-vertical-padding">
+				<a href="./index.html" style="color: white" class="align-horizontaly">
+					<div class="logo">
+						<img src="./media/makroshop-logo.png" alt="makroshop-logo" />
+					</div>
+					<div class="show-only-on-desktop btn-transparent-header">
+						Makro.be
+					</div>
+				</a>
+
+				<div class="align-horizontaly wrap hide-on-mobile header-actions">
+					<div class="show-only-on-desktop">
+						<ul class="align-horizontaly large-margin-right">
+							<li class="small-margin-right yellow">Hors TVA</li>
+							<li class="small-margin-right" >
+								<form method="GET" action="">
+									<label class="switch">
+									  <input type="checkbox">
+									  <span class="slider round"></span>
+									</label>
+								</form>
+							</li>
+							<li>TVA incl.</li>
+						</ul>
+
+						<div class="medium-margin-right">NL | <a href="#" class="yellow emphase">FR</a></span></div>
+					</div>
+
+					<div>
+						<a href="#" class="header-button-primary">
+							<p class="tiny-margin-right"> Se connecter / s'inscrire </p>
+							<svg class="show-on-mobile-only" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M14.9999 8C14.9999 9.65685 13.6568 11 11.9999 11C10.3431 11 8.99993 9.65685 8.99993 8C8.99993 6.34315 10.3431 5 11.9999 5C13.6568 5 14.9999 6.34315 14.9999 8ZM16.9999 8C16.9999 10.7614 14.7614 13 11.9999 13C9.23851 13 6.99993 10.7614 6.99993 8C6.99993 5.23858 9.23851 3 11.9999 3C14.7614 3 16.9999 5.23858 16.9999 8ZM12.0002 16C17.3662 16 18.925 18.1312 18.9975 20.7997C19.0005 20.9102 19.0898 21 19.2002 21H20.8002C20.9107 21 21.0005 20.9099 20.998 20.7995C20.9123 17.0262 18.388 14 12.0002 14C5.6125 14 3.08815 17.0262 3.00249 20.7995C2.99999 20.9099 3.08977 21 3.20023 21H4.80023C4.91069 21 4.99992 20.9102 5.00292 20.7997C5.07547 18.1312 6.63428 16 12.0002 16Z" fill="white"></path>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- header main -->
+			<div class="container space-between wrap-reverse header-main">
+				<!-- menu -->
+				<nav class="expand-on-desktop">
+					<div class="show-on-mobile-only">
+						<a href="#">
+							<svg id="makro-menu" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path 
+									fill-rule="evenodd" 
+									clip-rule="evenodd" 
+									d="M4 7C4 6.44772 4.44772 6 5 6H19C19.5523 6 20 6.44772 20 7C20 7.55228 19.5523 8 19 8H5C4.44772 8 4 7.55228 4 7ZM4 12C4 11.4477 4.44772 11 5 11H19C19.5523 11 20 11.4477 20 12C20 12.5523 19.5523 13 19 13H5C4.44772 13 4 12.5523 4 12ZM5 16C4.44772 16 4 16.4477 4 17C4 17.5523 4.44772 18 5 18H19C19.5523 18 20 17.5523 20 17C20 16.4477 19.5523 16 19 16H5Z"
+									fill="#022E72">
+								</path>
+							</svg>
+						</a>
+					</div>
+					<div id="menu_content" class="wrap align-horizontaly space-between hide-by-default-on-mobile shadow">
+						<ul class="align-horizontaly">
+							<li><a href="#" class="large-margin-right">Catégories</a></li>
+							<li><a href="#" class="large-margin-right">Dépliant</a></li>
+							<li><a href="#" class="large-margin-right">Outlet</a></li>
+						</ul>
+						<ul class="align-horizontaly">
+							<li><a href="#" class="large-margin-right">Foire aux questions</a></li>
+							<li><a href="#">Magasins</a></li>
+						</ul>
+					</div>
+				</nav>
+
+				<form method="GET" action="" class="search-box align-horizontaly bg-white">
+					<input type="text" name="search-input" class="expand-input small-padding" />
+
+					<button type="submit">
+						<svg id="makro-search" viewBox="0 0 24 24">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M16.1213 7.63602C18.4644 9.97917 18.4644 13.7782 16.1213 16.1213C13.7781 18.4644 9.97915 18.4644 7.63601 16.1213C5.29286 13.7782 5.29286 9.97917 7.63601 7.63602C9.97915 5.29288 13.7781 5.29288 16.1213 7.63602ZM18.1988 16.7846C20.6413 13.6462 20.4202 9.10653 17.5355 6.22181C14.4113 3.09761 9.34599 3.09761 6.2218 6.22181C3.0976 9.346 3.0976 14.4113 6.2218 17.5355C9.10652 20.4202 13.6462 20.6414 16.7846 18.1989L20.3639 21.7782C20.7545 22.1687 21.3876 22.1687 21.7781 21.7782C22.1687 21.3876 22.1687 20.7545 21.7781 20.3639L18.1988 16.7846Z" fill="#0163FE">
+							</path>
+						</svg>
+					</button>
+				</form>
+
+				<!-- buttons -->
+				<div class="align-horizontaly blue header-main__buttons">
+					<!-- comparaison -->		
+					<a href="#" class="show-only-on-desktop medium-margin-right">
+						<div class="align-verticaly">
+							<svg viewBox="0 0 25 24" class="icon-comparaison">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M13.5 7C13.5 7.55228 13.0523 8 12.5 8C11.9477 8 11.5 7.55228 11.5 7C11.5 6.44772 11.9477 6 12.5 6C13.0523 6 13.5 6.44772 13.5 7ZM15.3341 7.98633C14.9261 9.15866 13.8113 10 12.5 10C11.1887 10 10.0738 9.15863 9.66589 7.98627C9.61188 7.9953 9.5564 8 9.49982 8H7.07812L9.44734 16.7383C9.47104 16.8257 9.48238 16.9136 9.48243 17H9.49991C9.49991 18.6569 7.70905 20 5.49991 20C3.30782 20 1.52757 18.6775 1.50023 17.0383C1.49646 16.9391 1.5075 16.8377 1.535 16.7369L3.91779 8H3.49982C2.94753 8 2.49982 7.55228 2.49982 7C2.49982 6.44772 2.94753 6 3.49982 6H9.49982C9.5564 6 9.61188 6.0047 9.66589 6.01373C10.0738 4.84137 11.1887 4 12.5 4C13.8113 4 14.9261 4.84134 15.3341 6.01367C15.388 6.00468 15.4434 6 15.4998 6H21.4998C22.0521 6 22.4998 6.44772 22.4998 7C22.4998 7.55228 22.0521 8 21.4998 8H21.0781L23.4473 16.7383C23.471 16.8257 23.4824 16.9136 23.4824 17H23.4999C23.4999 18.6569 21.709 20 19.4999 20C17.3078 20 15.5276 18.6775 15.5002 17.0383C15.4965 16.9391 15.5075 16.8377 15.535 16.7369L17.9178 8H15.4998C15.4434 8 15.388 7.99532 15.3341 7.98633ZM3.53629 17H7.44608L5.49693 9.81099L3.53629 17ZM19.4969 9.81099L21.4461 17H17.5363L19.4969 9.81099Z" fill="#022E72">
+								</path>
+							</svg>
+							<p>Comparaison</p>
+						</div>
+					</a>
+
+					<!-- Liste D'envies -->		
+					<a href="#" class="show-only-on-desktop medium-margin-right">	
+						<div class="align-verticaly">
+							<svg viewBox="0 0 25 24" class="icon-liste-envies">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M4.5 5C3.94772 5 3.5 5.44772 3.5 6C3.5 6.55228 3.94772 7 4.5 7C5.05228 7 5.5 6.55228 5.5 6C5.5 5.44772 5.05228 5 4.5 5ZM8.5 5C7.94772 5 7.5 5.44772 7.5 6C7.5 6.55228 7.94772 7 8.5 7H20.5C21.0523 7 21.5 6.55228 21.5 6C21.5 5.44772 21.0523 5 20.5 5H8.5ZM7.5 12C7.5 11.4477 7.94772 11 8.5 11H20.5C21.0523 11 21.5 11.4477 21.5 12C21.5 12.5523 21.0523 13 20.5 13H8.5C7.94772 13 7.5 12.5523 7.5 12ZM4.5 11C3.94772 11 3.5 11.4477 3.5 12C3.5 12.5523 3.94772 13 4.5 13C5.05228 13 5.5 12.5523 5.5 12C5.5 11.4477 5.05228 11 4.5 11ZM7.5 18C7.5 17.4477 7.94772 17 8.5 17H20.5C21.0523 17 21.5 17.4477 21.5 18C21.5 18.5523 21.0523 19 20.5 19H8.5C7.94772 19 7.5 18.5523 7.5 18ZM4.5 17C3.94772 17 3.5 17.4477 3.5 18C3.5 18.5523 3.94772 19 4.5 19C5.05228 19 5.5 18.5523 5.5 18C5.5 17.4477 5.05228 17 4.5 17Z" fill="#022E72">
+								</path>
+							</svg>
+							<p>Liste D'envies</p>
+						</div>
+					</a>
+
+					<!-- Panier -->		
+					<a href="./commande.html">
+						<div class="align-verticaly">
+							<svg id="icon-panier" viewBox="0 0 25 24">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 1C1.94772 1 1.5 1.44772 1.5 2C1.5 2.55228 1.94772 3 2.5 3H3.5C4.05228 3 4.5 3.44772 4.5 4V6V13V15V16C4.5 17.6569 5.84315 19 7.5 19H19.5C20.0523 19 20.5 18.5523 20.5 18C20.5 17.4477 20.0523 17 19.5 17H7.5C6.94772 17 6.5 16.5523 6.5 16V14.8494L17.7792 14C18.6401 14 19.4044 13.4491 19.6766 12.6325L22.0099 6.63245C22.4416 5.33739 21.4777 4 20.1126 4H6.5C6.5 2.34315 5.15685 1 3.5 1H2.5ZM6.5 6V12.8494L17.7792 12L20.1126 6H6.5ZM9.5 21.5C9.5 22.3284 8.82843 23 8 23C7.17157 23 6.5 22.3284 6.5 21.5C6.5 20.6716 7.17157 20 8 20C8.82843 20 9.5 20.6716 9.5 21.5ZM18 23C18.8284 23 19.5 22.3284 19.5 21.5C19.5 20.6716 18.8284 20 18 20C17.1716 20 16.5 20.6716 16.5 21.5C16.5 22.3284 17.1716 23 18 23Z" fill="#022E72">
+								</path>
+							</svg>
+							<p class="show-only-on-desktop">Panier<p>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<!-- breadcrumb -->
+			<div class="page-info container medium-vertical-padding">
+				<a href="./index.html">Page d'accueil</a> / Politque
+			</div>
+		</header>
+
+		<main class="container centered-wide-bloc medium-vertical-padding styled-list">
+			<h1>Politique de confidentialité</h1>			
+
+			<p class="paragraph"><b class="emphase">Makroshop</b> respecte votre vie privée et assure la confidentialité des données personnelles que vous communiquez à la
+				société.
+			</p>
+
+			<p class="paragraph">Lors de vos contacts avec la société certaines données vous concernant sont collectées et traitées. Étant
+			donné que ces données permettent de vous identifier en tant que personne, il s’agit de « données à
+			caractère personnel ».</p>
+
+			<p class="paragraph">Pour savoir quelles sont les données personnelles traitées par la société et dans quelle mesure la société
+			les utilise de manière adéquate, vous pouvez consulter les rubriques suivantes :</p>
+
+			<ol>
+				<li>La présente déclaration et politique de respect de la vie privée</li>
+				<li>Données à caractère personnel détenues par la société</li>
+				<li>Traitement des données à caractère personnel par la société</li>
+				<li>Partage des données à caractère personnel par la société</li>
+				<li>Vos droits</li>
+				<li>Politique de sécurité de la société</li>
+				<li>Mineurs</li>
+				<li>Données de contact</li>
+			</ol>
+
+			<h2>La présente déclaration et politique de respect de la vie privée</h2>
+
+			<p class="paragraph">La présente déclaration et politique de respect de la vie privée s’applique à toutes les données à caractère
+			personnel vous concernant, collectées et traitées par la société.</p>
+
+			<p class="paragraph">Par l’utilisation du site Internet et éventuellement des applications, des mails et autres produits et services
+(mobiles) de la société, vous marquez votre accord avec l’application de la présente déclaration et politique
+de respect de la vie privée aux données à caractère personnel traitées par la société.</p>
+
+			<p class="paragraph">La société se réserve le droit de modifier à tout moment la présente déclaration et politique de respect de la
+			vie privée. La version applicable peut être consultée à tout moment sur le site Internet de la société.</p>
+
+			<h2>Données à caractère personnel détenues par la société</h2>
+			<p class="paragraph">Les données suivantes peuvent être collectées et traitées de différentes manières par la société. Notamment :</p>
+			<ul>
+				<li>Données que vous communiquez directement à la société
+					<ul class="medium-padding">
+						<li>Données d’identification et de contact : nom, prénom, adresse et localité, 
+							adresse e-mail, numéro de téléphone ou de GSM, date de naissance, âge, sexe... ;
+						</li>
+						<li>Données financières : numéro de compte bancaire, code BIC, nom du titulaire du compte... ;</li>
+						<li>Données de connexion relatives à un compte utilisateur : nom (d’utilisateur), adresse e-mail, mot de passe, 
+							question de sécurité et réponse à cette question, moments de connexion... ;
+						</li>
+						<li>Informations relatives aux produits et/ou services que vous souhaitez commander, à vos produits ou
+						    services favoris, à vos centres d’intérêt, aux préférences que vous transmettez par le biais de nos sites
+						</li>
+						<li>Internet, applications, boutiques en ligne... (mobiles) ;</li>
+						<li>Réclamations ou feed-back formulés via nos canaux d’assistance à propos de votre expérience avec la
+							société, remarques, suggestions, témoignages et toutes autres formes de feed-back ;</li>
+						<li>Autres données et contenu échangés, communiqués et partagés par vous-même par le biais des produits, 
+							sites Internet, applications, mails... (mobiles) de la société tels que, entre autres, du texte, des images, des 
+							enregistrements sonores...
+						</li>
+					</ul>
+				</li>
+				<li>
+					Données que vous communiquez en utilisant les sites Internet, applications et boutiques en ligne (mobiles)
+					<p class="paragraph medium-padding">
+					Lorsque vous utilisez les sites Internet ou applications (mobiles) de la société, les informations suivantes
+					peuvent être traitées : pages et sites Internet visités et recherches à l’aide de cookies, données que vous
+					introduisez vous-même sur les sites Internet ou dans les applications et autres données auxquelles la
+					société peut accéder (par exemple les données de localisation...).
+					</p>
+				</li>
+
+				<li>Données issues d’autres sources
+					<p class="paragraph medium-padding">
+					La société peut également collecter et traiter des données via d’autres sources telles que, entre autres,
+					l’achat ou la location de données collectées par des fournisseurs qui se spécialisent dans cette activité, des
+					partenaires de la société, des sources publiques, des médias sociaux... Les règles et préférences de ces
+					fournisseurs seront applicables à l’utilisation de canaux de médias sociaux, et cette disposition est valable
+					tant pour vous que pour la société. Les sites Internet de la société peuvent contenir des liens renvoyant à
+					d’autres sites. Ces sites Internet ne sont peut-être pas gérés par la société et peuvent avoir leur propre
+					déclaration ou politique de respect de la vie privée. La société vous conseille vivement d’en prendre
+					connaissance et décline toute responsabilité pour les sites Internet de tiers. Vous n’avez pas l’obligation de
+					communiquer vos données à la société ou d’accepter les traitements de celles-ci. Dans certains cas, il sera
+					toutefois nécessaire de fournir des données personnelles à la société afin de permettre le déroulement
+					optimal des prestations de services et le respect de la législation en vigueur.
+					</p>
+				</li>
+			</ul>
+
+
+			<h2>Traitement des données à caractère personnel par la société</h2>
+			<p class="paragraph">Les données à caractère personnel sont traitées par la société aux fins suivantes :</p>
+			<ul>
+				<li>La conclusion et l’exécution d’un contrat avec vous (tel que la conclusion d’abonnements, la commande de
+				produits et/ou de services, la création d’un compte utilisateur...), ainsi que la facturation, le suivi et la
+				perception de ces factures, par le biais de tiers ou non</li>
+
+				<li>Permettre d’échanger, de créer et de supprimer certaines informations et/ou de contacter d’autres
+				utilisateurs sur des sites Internet, applications, boutiques en ligne (mobiles)...</li>
+
+				<li>Le helpdesk</li>
+
+				<li>L’amélioration continue, l’entretien et l’optimisation de nos produits, services, sites Internet et applications
+				(mobiles) et la sécurisation de ceux-ci, ainsi que l’optimisation de stratégies générales, commerciales et de
+				marketing de la société</li>
+
+				<li>La personnalisation des produits à vous livrer et/ou services à vous fournir et des services d’aide
+				correspondants, informations d’utilisation, messages d’entretien ou autres messages
+				(électroniques) y relatifs</li>
+
+				<li>L’envoi ciblé de publicités, de bulletins d’information et d’informations parfaitement adaptés à vos besoins.
+				la société peut regrouper à cet effet vos préférences et centres d’intérêt dans un profil. Pour l’utilisation de
+				techniques de profilage avancées, la société demandera toujours votre autorisation préalable</li>
+
+				<li>Le respect de la réglementation applicable à la société au sens le plus large</li>
+
+				<li>D’autres fins spécifiques pour lesquelles une autorisation distincte peut être demandée.</li>
+			</ul>
+
+			<h2>Partage des données à caractère personnel par la société</h2>
+			<p class="paragraph">La société peut échanger les données à caractère personnel traitées avec les sociétés mères et sœurs et
+				les filiales au sein du groupe. En outre, des données à caractère personnel peuvent également être
+				partagées avec des partenaires, fournisseurs ou autres préposés de la société lorsque le traitement par ces
+				tiers est nécessaire pour la conclusion, l’exécution, l’utilisation, l’achat, l’accès ou le traitement de produits
+				et services et de sites Internet, applications, boutiques en ligne (mobiles)... Les conventions requises sont
+				toujours conclues avec ces partenaires, fournisseurs ou autres préposés afin de limiter l’utilisation et le
+				traitement de vos données personnelles et de garantir une protection suffisante de celles-ci. Si votre
+				autorisation est légalement requise ou si nous estimons que votre autorisation est appropriée compte tenu
+				des circonstances, nous vous la demanderons toujours avant de partager vos données personnelles ou de
+				les transmettre à un pays situé en dehors de l’Espace économique européen. Vos données personnelles
+				sont exclusivement divulguées conformément à la présente déclaration et politique de respect de la vie
+				privée et/ou si la loi l’exige. Nos partenaires, fournisseurs ou autres préposés peuvent uniquement utiliser
+				vos données personnelles pour vous communiquer des offres, des bulletins d’information et d’autres
+				informations commerciales. Si vous ne souhaitez plus recevoir ce type d’informations, vous pouvez à tout
+				moment contacter ces tiers pour mettre fin à l’utilisation de vos données personnelles (voir le point 8 de la
+				présente déclaration et politique de respect de la vie privée). Enfin, les données à caractère personnel
+				peuvent toujours être rendues anonymes avant d’être partagées avec des tiers. Dans ce cas, vous ne
+				pourrez jamais être identifié(e) grâce à l’anonymisation de vos données personnelles.
+			</p>
+
+			<h2>Vos droits</h2>
+			<p class="paragraph">Vous avez à tout moment le droit de consulter et de corriger vos données personnelles traitées par la
+				société. Vous avez également le droit de supprimer vos données personnelles et d’en limiter l’utilisation et
+				la transférabilité dans la mesure où la réglementation applicable le prévoit.Vous pouvez à tout moment
+				annuler votre autorisation pour certains traitements de vos données et vous opposer à l’utilisation de vos
+				données personnelles à des fins de marketing direct, à la transmission de vos données personnelles à des
+				tiers (lorsque cette transmission n’est pas indispensable pour les prestations de services de la société) et à
+				l’établissement de votre profil. Vous pouvez contacter la société à cet effet aux coordonnées reprises au
+				point 8 de la présente déclaration et politique de respect de la vie privée. Vous avez également le droit de
+				porter plainte auprès de l’autorité de contrôle.
+			</p>
+
+			<h2>Politique de sécurité de la société</h2>
+			<h3>Sécurisation des données</h3>
+			<p class="paragraph">Afin de protéger au mieux vos données personnelles, la société prend toutes les mesures raisonnables et
+				les meilleures pratiques sont appliquées pour éviter la perte, l’utilisation abusive, la divulgation, l’accès non
+				autorisé ou l’altération de ces données à caractère personnel. Les mesures adéquates sont prises, tant sur
+				le plan technique qu’organisationnel, pour assurer un niveau de sécurité suffisant. Les données de
+				paiement sont toujours protégées à l’aide des cryptages standard habituels utilisés pour protéger les
+				informations financières sensibles.
+			</p>
+
+			<h3>Conservation des données</h3>
+			<p class="paragraph">La société ne conservera pas vos données plus longtemps que nécessaire dans le cadre du traitement de
+				celles-ci, en tenant compte de la mission de la société visant à pouvoir répondre correctement aux
+				questions des clients, à pouvoir améliorer la qualité des produits et services et à respecter ses obligations
+				légales.
+			</p>
+
+			<h3>Mineurs (enfants de moins de 16 ans)</h3>
+			<p class="paragraph">La société ne collecte ou ne traite jamais délibérément des données à caractère personnel de mineurs sans
+				l’accord d’un parent ou d’un tuteur, qui doit être donné pour utiliser les produits et services et les sites
+				Internet, applications, mails, ... (mobiles) de la société et ensuite exercer les droits afférents aux données
+				du mineur. Si des données personnelles de mineurs étaient malgré tout traitées de bonne foi, la société les
+				effacerait de ses fichiers dans les plus brefs délais après en avoir pris connaissance.
+			</p>
+
+			<h2>Données de contact</h2>
+			<table>
+				<tbody>
+					<tr>
+						<td>Nom</td>
+						<td>Markoshop</td>
+					</tr>
+					<tr>
+						<td>e-mail</td>
+						<td>info@makroshop.be</td>
+					</tr>
+					<tr>
+						<td>Téléphone</td>
+						<td>0494 12 34 56</td>
+					</tr>
+					<tr>
+						<td>Adresse</td>
+						<td>rue du professeur bienveillant, 1 1040 Etterbeek</td>
+					</tr>
+					<tr>
+						<td>Numéro d’entreprise</td>
+						<td>0123.456.789</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+
+
+		<footer class="container divider-top">
+			<div class="footer-navigation inline-on-desktop">
+				<div class="huge-right-spacing-on-desktop">
+					<p class="title">makro</p>
+					<nav class="small-horizontal-padding no-padding-on-desktop">
+						<ul>
+							<li class="item"><a href="#">Sur makro</a></li>
+							<li class="item"><a href="#">Conditions générales de vente</a></li>
+							<li class="item"><a href="#">Privacy</a></li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="flex-1">
+					<p class="title">Commandes</p>
+					<nav class="small-horizontal-padding no-padding-on-desktop blue">
+						<ul>
+							<li class="item"><a href="#">Modalités de paiement</a></li>
+							<li class="item"><a href="#">Renvoyer</a></li>
+							<li class="item"><a href="#">Historique des commandes</a></li>
+							<li class="item"><a href="#">Enregistrez-vous</a></li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="footer-contact">
+					<div>
+						<h3 class="title">Vous avez des questions ?</h3>
+						<nav class="small-horizontal-padding no-padding-on-desktop blue">
+							<ul>
+								<li class="item"><a href="#">Service Clients</a></li>
+							</ul>
+						</nav>
+					</div>
+
+					<div class="">
+						<h4 class="title">Suivez-nous</h4>
+						<ul class="align-horizontaly small-horizontal-spacing">
+							<li class="item">
+								<a href="#" class="footer-icon">
+									<img src="./media/facebook-logo.png" alt="facebook" />
+								</a>
+							</li>
+							<li class="item">
+								<a href="#" class="footer-icon">
+									<img src="./media/instagram-logo.png" alt="instagram" />
+								</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="blue small-text centered-text bg-light-blue medium-vertical-margin small-vertical-padding">
+				© MAKRO Cash & Carry Belgium 2022
+			</div>
+		</footer>
+
+
+		<script src="./main.js"></script>
+
+	</body>
+</html>
